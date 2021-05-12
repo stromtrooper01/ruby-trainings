@@ -1,0 +1,21 @@
+name = 'Nikita'
+age = 21 #not lying
+height = 187 #cantimeters
+weight = 70 #kilograms
+eyes = 'green'
+teeth = 'white'
+hair = 'brown'
+skills = 'high'
+money = 2000
+
+puts "Let's talk about %s" %name 
+puts "He's %d cantimeters tall" %height
+puts "He's %d kilograms heavy" %weight
+puts "Actually that's not too heavy"
+
+puts "He's got %s eyes and %s hair" % [eyes, hair]
+puts "His teeth are usually %s depending on a coffee" %teeth
+puts "If I add %d, %d and %d I will get %d" % [age, height, weight, age + height + weight] 
+
+puts "So this means he is good at programming and his skills are %s "  %skills
+puts "And in the nearest future %s  will get a good job with decent amount of money, approximately $%d" % [name, money]

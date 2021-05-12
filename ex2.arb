@@ -1,0 +1,13 @@
+#this is used for a comment line
+=begin
+    
+and this is used for a  whole
+comment
+section
+you can type between begin and end
+whatever 
+you
+want
+=end
+#puts "This code wo'nt run because i'm good"
+puts "This code will run because i'm good"
